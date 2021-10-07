@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/73d9ce3c39.js" crossorigin="anonymous"></script>
+  <title>Cart</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__left">
+        <a class="header__logo" href="#">
+          <img width="44" height="38" src="img/logo.png" alt="logo">
+        </a>
+        <a href="#">
+          <img width="26" height="27" src="img/search.svg" alt="logo">
+        </a>
+      </div>
+      <div class="header__right">
+        <div class="header__nav">
+          <a href="#">
+            <img width="32" height="23" src="img/burger.svg" alt="logo">
+          </a>
+          <a href="#">
+            <img width="29" height="29" src="img/sign-in.svg" alt="logo">
+          </a>
+          <a href="#">
+            <img width="41" height="37" src="img/basket.png" alt="logo">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="breadcrumb">
+      <div class="container breadcrumb__container">
+        <div class="breadcrumb__left">
+          <a href="#">
+            <h2>SHOPPING CART</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cart">
+
+      <div class="container cart__container">
+
+        <div class="cart__content">
+          <div class="cart__items">
+            <div class="cart__item">
+              <div class="cart-item">
+                <div class="cart-item__img">
+                  <img width="262" height="306" src="img/cart-item1.png" alt="cart-item">
+                </div>
+                <div class="cart-item__description">
+                  <h2 class="cart-item__heading">MANGO PEOPLE <br> T-SHIRT</h2>
+                  <div class="cart-item__details">
+                    <p>Price: <span class="cart-item__details_price">$300</span></p>
+                    <p>Color: Red</p>
+                    <p>Size: Xl</p>
+                    <p class="cart-item__quantity">Quantity: <input type="text" placeholder="2"></p>
+                  </div>
+                </div>
+                <div class="cart-item__remove">
+                  <img src="img/remove.svg" alt="remove">
+                </div>
+              </div>
+            </div>
+            <div class="cart__item">
+              <div class="cart-item">
+                <div class="cart-item__img">
+                  <img width="262" height="306" src="img/cart-item2.png" alt="cart-item">
+                </div>
+                <div class="cart-item__description">
+                  <h2 class="cart-item__heading">MANGO PEOPLE <br> T-SHIRT</h2>
+                  <div class="cart-item__details">
+                    <p>Price: <span class="cart-item__details_price">$300</span></p>
+                    <p>Color: Red</p>
+                    <p>Size: Xl</p>
+                    <p class="cart-item__quantity">Quantity: <input type="text" placeholder="2"></p>
+                  </div>
+                </div>
+                <div class="cart-item__remove">
+                  <img src="img/remove.svg" alt="remove">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cart__buttons">
+            <a href="#" class="cart__btn">CLEAR SHOPPING CART</a>
+            <a href="#" class="cart__btn">CONTINUE SHOPPING</a>
+          </div>
+        </div>
+
+        <div class="cart__form">
+          <form class="cart__order">
+
+            <div class="cart__shipping">
+              <h3>SHIPPING ADRESS</h3>
+              <div class="cart__adress">
+                <input class="cart__input" type="text" name="city" placeholder="Bangladesh">
+                <input class="cart__input" type="text" name="state" placeholder="State">
+                <input class="cart__input" type="text" name="postcode" placeholder="Postcode / Zip">
+              </div>
+              <input class="cart__get-a-quote" type="submit" value="GET A QUOTE">
+            </div>
+
+            <div class="cart__price">
+              <h4 class="cart__sub-total">SUB TOTAL <span class="cart__sub-total_price">$900</span></h4>
+              <h3 class="cart__grand-total">GRAND TOTAL <span class="cart__grand-total_price">$900</span>
+              </h3>
+              <div class="cart__line"></div>
+              <input class="cart__proceed" type="submit" value="PROCEED TO CHECKOUT">
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <section class="subscribe">
+      <div class="subscribe__bcg-container">
+        <div class="container subscribe__container">
+          <div class="subscribe__left">
+            <div class="subscribe__message">
+              <img width="96" height="96" src="img/subscribe_avatar.png" alt="photo">
+              <p>“Vestibulum quis porttitor dui! Quisque <br> viverra nunc mi, <em>a pulvinar purus <br>
+                  condimentum
+                  “</em></p>
+            </div>
+          </div>
+          <div class="subscribe__right">
+            <h3>SUBSCRIBE</h3>
+            <span>FOR OUR NEWLETTER AND PROMOTION</span>
+            <div class="subscribe__form">
+              <input type="email" class="subscribe__email" placeholder="Enter Your Email">
+              <input type="submit" class="subscribe__btn" value="Subscribe">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="copyright">
+      <div class="container copyright__container">
+        <p class="copyright__rights">© 2021 Brand All Rights Reserved.</p>
+        <div class="copyright__social">
+          <div class="copyright__rectangle">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="copyright__rectangle">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="copyright__rectangle">
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+          <div class="copyright__rectangle">
+            <i class="fab fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+</body>
+
+</html>
